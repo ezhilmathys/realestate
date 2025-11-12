@@ -1,0 +1,38 @@
+# Laravel defaults
+/vendor/
+/node_modules/
+
+# Environment
+.env
+.env.*
+.env.backup
+
+# Framework/cache/logs
+/public/storage
+/storage/*.key
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/framework/testing/
+/bootstrap/cache/
+
+# Frontend hot reload
+/public/hot
+
+# IDE/editor
+/.idea/
+/.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Debug/artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.phpunit.result.cache
+
+# Project-specific sensitive files
+/LOGIN-DETAILS.txt
